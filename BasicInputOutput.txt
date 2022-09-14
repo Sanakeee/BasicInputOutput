@@ -1,0 +1,66 @@
+using System;
+namespace ConsoleApp {
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+      string name, paddress,permaddress, bday, cstatus, ctzenship, bplace, nfather, nmother, adress, lang, emergency, rel, height, weight, age;
+      
+      Console.WriteLine("Enter your following Information");
+      
+      Console.WriteLine("Name              :");
+      name = Console.ReadLine();
+      Console.WriteLine("Present Address   :");
+      paddress = Console.ReadLine();
+      Console.WriteLine("Permanent Address :");
+      permaddress = Console.ReadLine();
+      Console.WriteLine("Date of Birth     :");
+      bday = Console.ReadLine();
+      Console.WriteLine("Civil Status      :");
+      cstatus = Console.ReadLine();
+      Console.WriteLine("Citizenship       :");
+      ctzenship = Console.ReadLine();
+      Console.WriteLine("Place of Birth     :");
+      bplace = Console.ReadLine();
+      Console.WriteLine("Name of Father    :");
+      nfather = Console.ReadLine();
+      Console.WriteLine("Name of Mother    :");
+      nmother = Console.ReadLine();
+      Console.WriteLine("Address           :");
+      adress = Console.ReadLine();
+      Console.WriteLine("Language          :");
+      lang = Console.ReadLine();
+      Console.WriteLine("In Case of Emergency: ");
+      emergency = Console.ReadLine();
+      Console.WriteLine("Religion          : ");
+      rel = Console.ReadLine();
+      Console.WriteLine("Age               :");
+      age = Console.ReadLine();
+      Console.WriteLine("Weight            :");
+      weight = Console.ReadLine();
+      Console.WriteLine("Height            :");
+      height = Console.ReadLine();
+     Console.WriteLine("_________________________");
+     Console.WriteLine ("Name             :" + name);
+     Console.WriteLine("Present Address   :" + paddress);
+     Console.WriteLine("Permanent Address :" + permaddress);
+     Console.WriteLine("Date of Birth     :" + bday);
+     Console.WriteLine("Civil Status      :" + cstatus.PadRight(20, ' ') + "Religion :" + rel);
+     Console.WriteLine("Citizenship       :" + ctzenship.PadRight(20,' ')+"Age      :" + age);
+     Console.WriteLine("Place of Birth    :" + bplace.PadRight(20,' ')+ "Weight   :" + weight);
+     Console.WriteLine("Name of Father    :" + nfather.PadRight(20,' ')+ "Height   :" +height
+    );
+     Console.WriteLine("Name of Mother    :" + nmother );
+     Console.WriteLine("Address           :" + adress);
+     Console.WriteLine("Language          :" + lang);
+     Console.WriteLine("In Case of Emergency: " + emergency);
+     
+    
+     
+     
+     Console.ReadKey();
+      
+     
+    } 
+    }
+}
